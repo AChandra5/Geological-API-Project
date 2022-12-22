@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.coordinates span{
+    color: rgb(236, 231, 231);
+    display: inline;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+
+}
+.coordinates{
+    display: flex;
+}
+.weather-data{
+    background: white;
+    height:400px;
+    margin-top: 80px;
+
+}
+.data{
+    padding: 5px;
+    /* border: 5px #3e3935; */
+    border:  2px solid #000000;
+    margin: 15px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.weather-points{
+    padding: 5px;
+}
+
+/* for map */
+
+#map {
+  /* position: absolute; */
+  /* top: 0; */
+  /* bottom: 0; */
+  width: 70%;
+  height: 50%;
+  margin: auto;
+  margin-top:25px;
+  padding-bottom: 10px;
+}
+#lat-long{
+    display: flex;
+    margin: auto;
+    /* border:2px dotted black; */
+    /* margin-left: 0; */
+}
+#lat{
+    margin: auto;
+    margin-left: 0px;
+}
+#long{
+    margin-right: 200px;
+
+}

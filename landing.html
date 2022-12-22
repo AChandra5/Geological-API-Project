@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="./landing.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.maptiler.com/maplibre-gl-js/v2.4.0/maplibre-gl.js"></script>
+    <link
+      href="https://cdn.maptiler.com/maplibre-gl-js/v2.4.0/maplibre-gl.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.maptiler.com/leaflet/v1/leaflet.css" />
+<script src="https://cdn.maptiler.com/leaflet/v1/leaflet.js"></script>
+<script src="https://cdn.maptiler.com/mapbox-gl-leaflet/v1.0.0/mapbox-gl-leaflet.js"></script>
+
+  </head>
+  <body>
+    <h1>Weather Api</h1>
+    <div class="coordinates">
+      <span class="span latitude-span" id="latitude">Lat:</span>
+      <span class="span longitude-span" id="longitude">Long:</span>
+    </div>
+
+    <div id="map"></div>
+
+    <div class="weather-data">
+      <h1 style="color: black; text-align: left">Weather Data</h1>
+
+      <div class="data">
+        <div id="location" class="weather-points">location</div>
+        <div id="lat-long" class="weather-points">
+          <span id="lat" class="lat-long-span">Lat</span>
+          <span id="long" class="lat-long-span">Long</span>
+        </div>
+        <div id="timezone" class="weather-points">timezone</div>
+        <div id="windspeed" class="weather-points">windspeed</div>
+        <div id="pressure" class="weather-points">pressure</div>
+        <div id="humidity" class="weather-points">humidity</div>
+        <div id="wind-direction" class="weather-points">wind-directio</div>
+        <div id="uvIndex" class="weather-points">uvIndex</div>
+        <div id="feels-like" class="weather-points">feels-like</div>
+      </div>
+    </div>
+
+    <!-- <div id="map"></div> -->
+    <script src="./index.js"></script>
+  </body>
+</html>
